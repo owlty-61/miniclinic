@@ -125,3 +125,7 @@ Accept: application/json
 ### 測試 /stats 統計頁面 (網頁 HTML 回應)
 GET http://localhost:8080/stats
 Accept: text/html
+
+### 依掛號狀態統計
+GET http://localhost:8080/api/stats
+Accept: application/json
